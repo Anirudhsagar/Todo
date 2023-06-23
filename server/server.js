@@ -1,10 +1,7 @@
 const express = require("express");
 require("dotenv").config();
 const mongoose = require("mongoose");
-const userModel = require("./models/userModel");
-const bcrypt = require("bcrypt");
 const cors = require("cors");
-const jwt = require("jsonwebtoken");
 const route = require("./routes/route");
 const PORT = process.env.PORT || 4000
 
@@ -14,7 +11,7 @@ app.use(express.json());
 app.use(cors());
 
 mongoose
-  .connect("mongodb+srv://Pallabiram:pBfYTKrTVydqp76Q@cluster0.khdhbt8.mongodb.net/reactproject1"
+  .connect("mongodb+srv://roushan915520:WyHA53wgBezHddwj@cluster0.5mlxslz.mongodb.net/Rohan-TODO"
   , {
     useNewUrlParser: true,
     useUnifiedTopology: true,

@@ -6,7 +6,7 @@ export default function Home() {
     <>
       <div className="header">
         <h1>Welcome to TASK LISTER</h1>
-        <h3>Developed by Pallabi Ram</h3>
+        <h3>Developed by Anirudh sagar</h3>
       </div>
       <div className="nav-links">
         <Link to={"/"} className="nav-link">
